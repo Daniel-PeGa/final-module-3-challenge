@@ -1,6 +1,8 @@
-# final-module-3-challenge
+# Daniel Perez Garnica's Random Password Generator
 
-# Password Generator Starter Code
+This is a site to randomly generate a password that fits the parameters established by the user.
+
+## Acceptance Criteria
 
 AS AN employee with access to sensitive data
 I WANT to randomly generate a password that meets certain criteria
@@ -21,3 +23,13 @@ WHEN all prompts are answered
 THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
+
+## Deployed Website
+
+<img width="1440" alt="Screen Shot 2022-07-30 at 15 48 47" src="https://user-images.githubusercontent.com/106125888/181995703-8a74bb7f-f32c-41af-8fc0-2ad4c2e5a7f0.png">
+
+https://daniel-pega.github.io/final-module-3-challenge/
+
+## Github
+
+https://github.com/Daniel-PeGa/final-module-3-challenge.git
