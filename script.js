@@ -38,19 +38,29 @@ function generatePassword() {
 
   if (lowCase) {
     totalChar = totalChar.concat(alphabetMin);
-    console.log(totalChar);
   } 
   if (yeCap) {
     totalChar = totalChar.concat(alphabetCAP);
-    console.log(totalChar);
   }
   if (nums) {
     totalChar = totalChar.concat(numbers);
-    console.log(totalChar);
   }
   if (speciChars) {
     totalChar = totalChar.concat(specChar);
-    console.log(totalChar);
   }
+ 
+  let finalPassword = ""
+  for (let i = 0; i < charNumb; i++) {
+    let rng =[Math.floor(Math.random() * totalChar.length)];
+    finalPassword = finalPassword + totalChar[rng];
+  }
+  return finalPassword;
+};
   
+var generateBtn = document.querySelector("#generate");
+
+function writePassword() {
+  var password = generatePassword();
+  var passwordText = document.querySelector("#password");
+  passwordText.value = password;
 }
