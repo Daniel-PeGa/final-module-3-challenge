@@ -2,11 +2,27 @@
 
 This is a site to randomly generate a password that fits the parameters established by the user.
 
-## Acceptance Criteria
+## Project Description
+
+This is a simple project that shows prompts asking about password length, as well as other specifics of a desired random password, and based on that information, a javascript function runs over different arrays of different kinds of characters to design the one perfect for you.
+
+## Technologies used
+
+* JavaScript
+* HTML
+* CSS
+
+## Future development
+
+I was thinking it'd be kind of cool to have it so that if you click on top of the text of your new randomly-generated password, it gets copied, so that you only have to paste it now.
+
+## User Story
 
 AS AN employee with access to sensitive data
 I WANT to randomly generate a password that meets certain criteria
 SO THAT I can create a strong password that provides greater security
+
+## Acceptance Criteria 
 
 GIVEN I need a new, secure password
 WHEN I click the button to generate a password
@@ -26,10 +42,12 @@ THEN the password is either displayed in an alert or written to the page
 
 ## Deployed Website
 
-<img width="1440" alt="Screen Shot 2022-07-30 at 15 48 47" src="https://user-images.githubusercontent.com/106125888/181995703-8a74bb7f-f32c-41af-8fc0-2ad4c2e5a7f0.png">
+You can easily check it out and make yourself your own random password, check the following link!
+https://daniel-pega.github.io/javaScript_PasswordGenerator/
 
-https://daniel-pega.github.io/final-module-3-challenge/
 
-## Github
 
-https://github.com/Daniel-PeGa/final-module-3-challenge.git
+## Screenshot
+
+<img width="1470" alt="Screenshot 2023-01-08 at 6 11 09 PM" src="https://user-images.githubusercontent.com/106125888/211225821-1f927893-7807-4f6b-998e-89d8102d98db.png">
+
